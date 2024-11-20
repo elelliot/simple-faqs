@@ -1,0 +1,61 @@
+html{
+    background-color: black;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(241, 241, 241);
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+a{
+    color:#4E80EE;
+    text-decoration: none;
+}
+
+p{ font-size: 16px; }
+
+ol { padding-left: 1.4em; }
+ul { padding-left: 1.6em; }
+li{ line-height: 2; }
+
+.section-divide {
+    margin: 36px 0px;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.hero-container {
+    background-color: transparent;
+    padding: 24px;
+    text-align: center;
+}
+
+
+/* Faqs Main Container */
+.faqs-section-container{
+    padding: 40px 20px;
+    background-color: #0a0a0a;
+}
+
+@media (min-width: 768px) {
+    .faqs-section-container{
+        padding: 44px 36px;
+    }
+}
+
+
+.faq-item-container{
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+
+/* Faq Item */
+.faq-item-title{ margin-bottom: 24px; font-size: 24px; }
+.faq-list-title{ margin-bottom: 24px; font-size: 16px; }
